@@ -10,7 +10,7 @@ fn main() {
         thread::sleep(time::Duration::from_millis(1000));
         if rng.gen_range(1..=10) == 1 {
             let mut enigo = Enigo::new(&Settings::default()).unwrap();
-            let _resault = enigo.text("hello world!");
+            let _resault = enigo.text("a ");
         } 
     }
 }
