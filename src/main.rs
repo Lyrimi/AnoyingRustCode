@@ -8,5 +8,4 @@ fn main() {
     let mut enigo = Enigo::new(&Settings::default()).unwrap();
     let resault = enigo.text("hello world!");
     println!("{:?}", resault);
-    println!("hello World!");
 }
