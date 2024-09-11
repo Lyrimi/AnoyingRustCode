@@ -1,3 +1,11 @@
+use enigo::{
+    Enigo, Keyboard, Settings,
+};
+
+
+
 fn main() {
-    println!("Hello, world!");
+    let mut enigo = Enigo::new(&Settings::default()).unwrap();
+    let resault = enigo.text("hello world!");
+    println!("{:?}", resault);
 }
